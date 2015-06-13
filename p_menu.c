@@ -276,7 +276,7 @@ void OpenJoinMenu (edict_t *ent)
 	//				    xxxxxxxxxxxxxxxxxxxxxxxxxxx (max length 27 chars)
 
 	addlinetomenu(ent, va("Vortex Chile v%s", VRX_VERSION), MENU_GREEN_CENTERED);
-	//addlinetomenu(ent, "www.v2gamers.cl", MENU_GREEN_CENTERED);
+	addlinetomenu(ent, "www.eltelon.com", MENU_GREEN_CENTERED);
 	addlinetomenu(ent, " ", 0);
 	addlinetomenu(ent, " ", 0);
 	addlinetomenu(ent, "Kill players and monsters", 0);

@@ -2,8 +2,8 @@
 
 #ifndef NO_GDS
 
-#include <my_global.h>
-#include <mysql.h>
+#include <mysql/my_global.h>
+#include <mysql/mysql.h>
 #include "gds.h"
 
 #ifndef GDS_NOMULTITHREADING
@@ -18,8 +18,8 @@
 // Definitions
 // *********************************
 
-#define DEFAULT_DATABASE "127.0.0.1"
-#define MYSQL_PW "vortex_default_password"
+#define DEFAULT_DATABASE "localhost"
+#define MYSQL_PW "vortex.2015"
 #define MYSQL_USER "vortex_user"
 #define MYSQL_DBNAME "vrxcl"
 
