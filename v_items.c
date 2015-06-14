@@ -179,6 +179,7 @@ void adminSpawnRune(edict_t *self, int type, int index)
 
 	//Randomize id
 	strcpy(rune->vrxitem.id, GetRandomString(16));
+	strcpy(rune->vrxitem.name, GetRuneValString(rune));
 
 	//Free the ent (if no rune was spawned)
 	G_FreeEdict(rune);
@@ -372,6 +373,7 @@ edict_t *V_SpawnRune (edict_t *self, edict_t *attacker, float base_drop_chance, 
 
 	//Randomize id
 	strcpy(rune->vrxitem.id, GetRandomString(16));
+	strcpy(rune->vrxitem.name, GetRuneValString(rune));
 
 	return rune;
 }
@@ -490,6 +492,7 @@ void SpawnRune (edict_t *self, edict_t *attacker, qboolean debug)
 
 	//Randomize id
 	strcpy(rune->vrxitem.id, GetRandomString(16));
+	strcpy(rune->vrxitem.name, GetRuneValString(rune));
 }
 
 //************************************************************************************************

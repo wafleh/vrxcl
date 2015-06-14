@@ -50,6 +50,7 @@ void SaveCharacterQuit (edict_t *ent)
 
 	// copy inventory to temp space
 	for (i=0; i<game.num_items; i++, item++)
+		ent->client->pers.inventory[ITEM_INDEX(item)];
 		temp[ITEM_INDEX(item)] = ent->client->pers.inventory[ITEM_INDEX(item)];
 
 	health = ent->health;
