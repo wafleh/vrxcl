@@ -335,15 +335,19 @@ void AddDmgList (edict_t *self, edict_t *other, int damage)
 	dmgListCleanup(self, false);
 
 	// already in the queue?
-	if (slot=findDmgSlot(self, cl_ent))
+	slot=findDmgSlot(self, cl_ent);
+	if (slot)
 	{
 		slot->damage += damage;
 	}
 	// add attacker to the queue
-	else if (slot=findEmptyDmgSlot(self))
-	{
-		slot->player = cl_ent;
-		slot->damage += damage;
+	else {
+		slot=findEmptyDmgSlot(self);
+		if (slot)
+        {
+            slot->player = cl_ent;
+            slot->damage += damage;
+        }
 	}
 
 	//gi.dprintf("adding %d damage\n", damage);

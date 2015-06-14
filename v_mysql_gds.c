@@ -2,8 +2,10 @@
 
 #ifndef NO_GDS
 
-#include <mysql/my_global.h>
-#include <mysql/mysql.h>
+
+
+#include "mysql/include/my_global.h"
+#include "mysql/include/mysql.h"
 #include "gds.h"
 
 #ifndef GDS_NOMULTITHREADING

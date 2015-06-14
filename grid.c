@@ -30,7 +30,6 @@ vec3_t pathnode[MAX_GRID_SIZE];
 #define NUMCHILDS 12
 
 typedef struct node_s node_t;
-typedef struct stack_s stack_t;
 
 struct node_s {
   int   g; // how far we've already gone from start to here
@@ -59,8 +58,8 @@ void Push(node_t *Node) {
 stack_t *STK;
 
   STK=(stack_t *)V_Malloc(sizeof(stack_t), TAG_LEVEL);
-  STK->StackPtr=Stack; // NULL at start
-  STK->NodePtr=Node;   // Tie the Node
+  STK->ss_sp=Stack; // NULL at start
+  STK->ss_sp=Node;   // Tie the Node
   Stack=STK;           // Set to start of Stack
 }
 
@@ -72,8 +71,8 @@ node_t *tNode;
 stack_t *STK;
 
   STK=Stack;             // Start of Stack
-  tNode=Stack->NodePtr;  // Grab this Node.
-  Stack=Stack->StackPtr; // Move Stack Pointer
+  tNode=Stack->ss_sp;  // Grab this Node.
+  Stack=Stack->ss_sp; // Move Stack Pointer
   V_Free(STK);       // Free this node
 
   return (tNode);
@@ -163,7 +162,7 @@ stack_t *STK;
 
   while (Stack) {
     STK=Stack;
-    Stack=Stack->StackPtr;
+    Stack=Stack->ss_sp;
     V_Free(STK); 
 	//free(STK);
   NumFreed++;

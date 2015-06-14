@@ -15,7 +15,7 @@
 #define TOTAL_INSERTONCE 5
 #define TOTAL_RESETTABLES 6
 
-const char* VSFU_CREATEDBQUERY[TOTAL_TABLES] = 
+char **VSFU_CREATEDBQUERY =
 {
 	{"CREATE TABLE [abilities] ( [char_idx] INTEGER,[index] INTEGER, [level] INTEGER, [max_level] INTEGER, [hard_max] INTEGER, [modifier] INTEGER,   [disable] INTEGER,   [general_skill] INTEGER)"},
 	{"CREATE TABLE [ctf_stats] ( [char_idx] INTEGER,  [flag_pickups] INTEGER,   [flag_captures] INTEGER,   [flag_returns] INTEGER,   [flag_kills] INTEGER,   [offense_kills] INTEGER,   [defense_kills] INTEGER,   [assists] INTEGER)"},
@@ -827,7 +827,7 @@ qboolean VSFU_LoadPlayer(edict_t *player)
 
 void V_VSFU_StartConn()
 {
-	char *dbname = Lua_GetStringSetting("SQLitePath");
+	char *dbname = (char *) Lua_GetStringSetting("SQLitePath");
 	struct stat mybuf;
 	int i, r;
 	char* format;
