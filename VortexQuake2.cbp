@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="VortexQuake2" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="C:/Users/Ismael/Documents/GitHub/vrxcl" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="C:/Users/Ismael/Documents/GitHub/vrxcl" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="C:/Users/Ismael/Documents/GitHub/vrxcl" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gamex86">
+         <Option output="C:/Users/Ismael/Documents/GitHub/vrxcl/libgamex86.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Ismael/Documents/GitHub/vrxcl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGDS_NOMULTITHREADING" />
+            <Add option="-DNO_GDS" />
+            <Add option="-DCMD_USEHASH" />
+            <Add option="-DQ2PRO_COMPATIBILITY" />
+            <Add option="-DALLOW_ADMIN" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/../../../../include" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/include" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/include/c++" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 gamex86" />
+            <CompileFile command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gamex86/fast">
+         <Option output="C:/Users/Ismael/Documents/GitHub/vrxcl/libgamex86.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Ismael/Documents/GitHub/vrxcl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGDS_NOMULTITHREADING" />
+            <Add option="-DNO_GDS" />
+            <Add option="-DCMD_USEHASH" />
+            <Add option="-DQ2PRO_COMPATIBILITY" />
+            <Add option="-DALLOW_ADMIN" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/../../../../include" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/include" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/include-fixed" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/include/c++" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward" />
+            <Add directory="C:/TDM-GCC-32/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 gamex86/fast" />
+            <CompileFile command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/TDM-GCC-32/bin/mingw32-make.exe -f &quot;C:/Users/Ismael/Documents/GitHub/vrxcl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/Player.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/Spirit.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/Talents.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/AStar.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_class_dmbot.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_class_monster_default.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_dropnodes.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_items.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_links.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_main.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_movement.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_navigation.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_nodes.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_tools.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_weapons.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/bot_common.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/bot_spawn.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ally.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/armory.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/auras.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/backpack.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/bombspell.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/boss_general.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/boss_makron.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/boss_tank.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/class_brain.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/class_demon.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/cloak.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ctf.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/damage.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/domination.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_ai.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_berserk.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_bitch.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_brain.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_decoy.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_gladiator.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_gunner.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_infantry.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_jorg.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_makron.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_medic.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_misc.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_move.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_mutant.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_parasite.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_retard.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_soldier.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_supertank.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/drone_tank.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ents.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/file_output.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/flying_skull.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/forcewall.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_chase.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_cmds.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_combat.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_flame.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_func.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_items.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_lasers.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_main.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_misc.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_monster.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_phys.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_save.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_spawn.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_svcmds.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_sword.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_target.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_trigger.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_utils.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/g_weapon.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/grid.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/hash_32a.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/help.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/invasion.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/item_menu.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/jetpack.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/lasers.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/lasersight.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/laserstuff.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/lua.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/m_flash.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/magic.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/maplist.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/menu.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/minisentry.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/misc_stuff.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/p_client.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/p_hook.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/p_hud.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/p_menu.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/p_parasite.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/p_trail.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/p_view.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/p_weapon.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/player_points.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/playerlog.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/playertoberserk.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/playertoflyer.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/playertomedic.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/playertomutant.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/playertoparasite.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/playertotank.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/pvb.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/q_shared.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/repairstation.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/scanner.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/sentrygun2.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/shaman.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/special_items.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/sqlite3.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/supplystation.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/teamplay.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/totems.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/trade.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/upgrades.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_abilitylist.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_autobind.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_cmd.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_file_IO.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_hw.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_items.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_luasettings.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_maplist.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_mysql_gds.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_sqlite_character.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_sqlite_unidb.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_tbi.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_utils.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/vote.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/weapon_upgrades.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/weapons.c">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/Spirit.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/Talents.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/AStar.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ai/ai_weapons.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ally.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/auras.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/ctf.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/damage.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/invasion.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/lua.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/menu.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/p_hook.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/p_menu.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/playertoflyer.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/q_shared.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/scanner.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/shaman.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/special_items.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/sqlite3.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/teamplay.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_cmd.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_items.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_luasettings.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_maplist.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/v_utils.h">
+      </Unit>
+      <Unit filename="C:/Users/Ismael/Documents/GitHub/vrxcl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

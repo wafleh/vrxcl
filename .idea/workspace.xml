@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="VortexQuake2" targetName="gamex86_64" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1204227-43e3-4a08-a572-17fd4eaf973f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ACEBOT and GPL.txt" afterPath="$PROJECT_DIR$/ai/ACEBOT and GPL.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/AStar.c" afterPath="$PROJECT_DIR$/ai/AStar.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/AStar.h" afterPath="$PROJECT_DIR$/ai/AStar.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Player.c" afterPath="$PROJECT_DIR$/Player.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SConstruct" afterPath="$PROJECT_DIR$/SConstruct" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spirit.c" afterPath="$PROJECT_DIR$/Spirit.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spirit.h" afterPath="$PROJECT_DIR$/Spirit.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Talents.c" afterPath="$PROJECT_DIR$/Talents.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Talents.h" afterPath="$PROJECT_DIR$/Talents.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ability_def.h" afterPath="$PROJECT_DIR$/ability_def.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai.h" afterPath="$PROJECT_DIR$/ai/ai.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_class_dmbot.c" afterPath="$PROJECT_DIR$/ai/ai_class_dmbot.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_class_monster_default.c" afterPath="$PROJECT_DIR$/ai/ai_class_monster_default.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_dropnodes.c" afterPath="$PROJECT_DIR$/ai/ai_dropnodes.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_items.c" afterPath="$PROJECT_DIR$/ai/ai_items.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_links.c" afterPath="$PROJECT_DIR$/ai/ai_links.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_local.h" afterPath="$PROJECT_DIR$/ai/ai_local.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_main.c" afterPath="$PROJECT_DIR$/ai/ai_main.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_movement.c" afterPath="$PROJECT_DIR$/ai/ai_movement.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_navigation.c" afterPath="$PROJECT_DIR$/ai/ai_navigation.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_nodes.c" afterPath="$PROJECT_DIR$/ai/ai_nodes.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_nodes_local.h" afterPath="$PROJECT_DIR$/ai/ai_nodes_local.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_nodes_shared.h" afterPath="$PROJECT_DIR$/ai/ai_nodes_shared.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_tools.c" afterPath="$PROJECT_DIR$/ai/ai_tools.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_weapons.c" afterPath="$PROJECT_DIR$/ai/ai_weapons.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/ai_weapons.h" afterPath="$PROJECT_DIR$/ai/ai_weapons.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ally.c" afterPath="$PROJECT_DIR$/ally.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ally.h" afterPath="$PROJECT_DIR$/ally.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/armory.c" afterPath="$PROJECT_DIR$/armory.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auras.c" afterPath="$PROJECT_DIR$/auras.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auras.h" afterPath="$PROJECT_DIR$/auras.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backpack.c" afterPath="$PROJECT_DIR$/backpack.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bombspell.c" afterPath="$PROJECT_DIR$/bombspell.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boss.h" afterPath="$PROJECT_DIR$/boss.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boss_general.c" afterPath="$PROJECT_DIR$/boss_general.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boss_makron.c" afterPath="$PROJECT_DIR$/boss_makron.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boss_tank.c" afterPath="$PROJECT_DIR$/boss_tank.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/bot_common.c" afterPath="$PROJECT_DIR$/ai/bot_common.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ai/bot_spawn.c" afterPath="$PROJECT_DIR$/ai/bot_spawn.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class_brain.c" afterPath="$PROJECT_DIR$/class_brain.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class_demon.c" afterPath="$PROJECT_DIR$/class_demon.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloak.c" afterPath="$PROJECT_DIR$/cloak.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ctf.c" afterPath="$PROJECT_DIR$/ctf.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ctf.h" afterPath="$PROJECT_DIR$/ctf.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/damage.c" afterPath="$PROJECT_DIR$/damage.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/damage.h" afterPath="$PROJECT_DIR$/damage.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domination.c" afterPath="$PROJECT_DIR$/domination.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_ai.c" afterPath="$PROJECT_DIR$/drone_ai.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_berserk.c" afterPath="$PROJECT_DIR$/drone_berserk.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_bitch.c" afterPath="$PROJECT_DIR$/drone_bitch.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_brain.c" afterPath="$PROJECT_DIR$/drone_brain.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_decoy.c" afterPath="$PROJECT_DIR$/drone_decoy.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_gladiator.c" afterPath="$PROJECT_DIR$/drone_gladiator.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_gunner.c" afterPath="$PROJECT_DIR$/drone_gunner.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_infantry.c" afterPath="$PROJECT_DIR$/drone_infantry.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_jorg.c" afterPath="$PROJECT_DIR$/drone_jorg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_makron.c" afterPath="$PROJECT_DIR$/drone_makron.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_medic.c" afterPath="$PROJECT_DIR$/drone_medic.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_misc.c" afterPath="$PROJECT_DIR$/drone_misc.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_move.c" afterPath="$PROJECT_DIR$/drone_move.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_mutant.c" afterPath="$PROJECT_DIR$/drone_mutant.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_parasite.c" afterPath="$PROJECT_DIR$/drone_parasite.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_soldier.c" afterPath="$PROJECT_DIR$/drone_soldier.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_supertank.c" afterPath="$PROJECT_DIR$/drone_supertank.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drone_tank.c" afterPath="$PROJECT_DIR$/drone_tank.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ents.c" afterPath="$PROJECT_DIR$/ents.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/extract.py" afterPath="$PROJECT_DIR$/util/extract.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file_output.c" afterPath="$PROJECT_DIR$/file_output.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flying_skull.c" afterPath="$PROJECT_DIR$/flying_skull.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fnv.h" afterPath="$PROJECT_DIR$/fnv.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forcewall.c" afterPath="$PROJECT_DIR$/forcewall.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_abilities.h" afterPath="$PROJECT_DIR$/g_abilities.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_chase.c" afterPath="$PROJECT_DIR$/g_chase.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_cmds.c" afterPath="$PROJECT_DIR$/g_cmds.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_combat.c" afterPath="$PROJECT_DIR$/g_combat.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_ctf.h" afterPath="$PROJECT_DIR$/g_ctf.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_flame.c" afterPath="$PROJECT_DIR$/g_flame.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_func.c" afterPath="$PROJECT_DIR$/g_func.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_items.c" afterPath="$PROJECT_DIR$/g_items.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_lasers.c" afterPath="$PROJECT_DIR$/g_lasers.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_local.h" afterPath="$PROJECT_DIR$/g_local.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_main.c" afterPath="$PROJECT_DIR$/g_main.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_misc.c" afterPath="$PROJECT_DIR$/g_misc.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_monster.c" afterPath="$PROJECT_DIR$/g_monster.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_phys.c" afterPath="$PROJECT_DIR$/g_phys.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_save.c" afterPath="$PROJECT_DIR$/g_save.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_spawn.c" afterPath="$PROJECT_DIR$/g_spawn.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_svcmds.c" afterPath="$PROJECT_DIR$/g_svcmds.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_sword.c" afterPath="$PROJECT_DIR$/g_sword.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_target.c" afterPath="$PROJECT_DIR$/g_target.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_trigger.c" afterPath="$PROJECT_DIR$/g_trigger.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_utils.c" afterPath="$PROJECT_DIR$/g_utils.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/g_weapon.c" afterPath="$PROJECT_DIR$/g_weapon.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.h" afterPath="$PROJECT_DIR$/game.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gds.h" afterPath="$PROJECT_DIR$/gds.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grid.c" afterPath="$PROJECT_DIR$/grid.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hash_32a.c" afterPath="$PROJECT_DIR$/hash_32a.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help.c" afterPath="$PROJECT_DIR$/help.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lua/initgame.lua" afterPath="$PROJECT_DIR$/lua/initgame.lua" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invasion.c" afterPath="$PROJECT_DIR$/invasion.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invasion.h" afterPath="$PROJECT_DIR$/invasion.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/item_menu.c" afterPath="$PROJECT_DIR$/item_menu.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jetpack.c" afterPath="$PROJECT_DIR$/jetpack.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lasers.c" afterPath="$PROJECT_DIR$/lasers.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lasersight.c" afterPath="$PROJECT_DIR$/lasersight.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laserstuff.c" afterPath="$PROJECT_DIR$/laserstuff.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lauxlib.h" afterPath="$PROJECT_DIR$/lauxlib.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lua.c" afterPath="$PROJECT_DIR$/lua.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lua.h" afterPath="$PROJECT_DIR$/lua.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/luaconf.h" afterPath="$PROJECT_DIR$/luaconf.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lualib.h" afterPath="$PROJECT_DIR$/lualib.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_actor.h" afterPath="$PROJECT_DIR$/m_actor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_berserk.h" afterPath="$PROJECT_DIR$/m_berserk.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_boss2.h" afterPath="$PROJECT_DIR$/m_boss2.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_boss31.h" afterPath="$PROJECT_DIR$/m_boss31.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_boss32.h" afterPath="$PROJECT_DIR$/m_boss32.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_brain.h" afterPath="$PROJECT_DIR$/m_brain.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_chick.h" afterPath="$PROJECT_DIR$/m_chick.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_flash.c" afterPath="$PROJECT_DIR$/m_flash.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_flipper.h" afterPath="$PROJECT_DIR$/m_flipper.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_float.h" afterPath="$PROJECT_DIR$/m_float.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_flyer.h" afterPath="$PROJECT_DIR$/m_flyer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_gladiator.h" afterPath="$PROJECT_DIR$/m_gladiator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_gunner.h" afterPath="$PROJECT_DIR$/m_gunner.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_hover.h" afterPath="$PROJECT_DIR$/m_hover.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_infantry.h" afterPath="$PROJECT_DIR$/m_infantry.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_insane.h" afterPath="$PROJECT_DIR$/m_insane.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_medic.h" afterPath="$PROJECT_DIR$/m_medic.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_mutant.h" afterPath="$PROJECT_DIR$/m_mutant.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_parasite.h" afterPath="$PROJECT_DIR$/m_parasite.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_player.h" afterPath="$PROJECT_DIR$/m_player.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_rider.h" afterPath="$PROJECT_DIR$/m_rider.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_soldier.h" afterPath="$PROJECT_DIR$/m_soldier.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_supertank.h" afterPath="$PROJECT_DIR$/m_supertank.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m_tank.h" afterPath="$PROJECT_DIR$/m_tank.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/magic.c" afterPath="$PROJECT_DIR$/magic.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maplist.c" afterPath="$PROJECT_DIR$/maplist.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/maps.lua" afterPath="$PROJECT_DIR$/util/maps.lua" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu.c" afterPath="$PROJECT_DIR$/menu.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu.h" afterPath="$PROJECT_DIR$/menu.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minisentry.c" afterPath="$PROJECT_DIR$/minisentry.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc_stuff.c" afterPath="$PROJECT_DIR$/misc_stuff.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/morph.h" afterPath="$PROJECT_DIR$/morph.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_client.c" afterPath="$PROJECT_DIR$/p_client.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_hook.c" afterPath="$PROJECT_DIR$/p_hook.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_hook.h" afterPath="$PROJECT_DIR$/p_hook.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_hud.c" afterPath="$PROJECT_DIR$/p_hud.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_menu.c" afterPath="$PROJECT_DIR$/p_menu.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_menu.h" afterPath="$PROJECT_DIR$/p_menu.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_parasite.c" afterPath="$PROJECT_DIR$/p_parasite.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_trail.c" afterPath="$PROJECT_DIR$/p_trail.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_view.c" afterPath="$PROJECT_DIR$/p_view.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p_weapon.c" afterPath="$PROJECT_DIR$/p_weapon.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/player_points.c" afterPath="$PROJECT_DIR$/player_points.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playerlog.c" afterPath="$PROJECT_DIR$/playerlog.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playertoberserk.c" afterPath="$PROJECT_DIR$/playertoberserk.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playertoflyer.c" afterPath="$PROJECT_DIR$/playertoflyer.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playertomedic.c" afterPath="$PROJECT_DIR$/playertomedic.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playertomutant.c" afterPath="$PROJECT_DIR$/playertomutant.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playertoparasite.c" afterPath="$PROJECT_DIR$/playertoparasite.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playertotank.c" afterPath="$PROJECT_DIR$/playertotank.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pvb.c" afterPath="$PROJECT_DIR$/pvb.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q_shared.c" afterPath="$PROJECT_DIR$/q_shared.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q_shared.h" afterPath="$PROJECT_DIR$/q_shared.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource.h" afterPath="$PROJECT_DIR$/resource.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runes.h" afterPath="$PROJECT_DIR$/runes.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scanner.c" afterPath="$PROJECT_DIR$/scanner.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scanner.h" afterPath="$PROJECT_DIR$/scanner.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sentrygun2.c" afterPath="$PROJECT_DIR$/sentrygun2.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/sep.py" afterPath="$PROJECT_DIR$/util/sep.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.h" afterPath="$PROJECT_DIR$/settings.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shaman.c" afterPath="$PROJECT_DIR$/shaman.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shaman.h" afterPath="$PROJECT_DIR$/shaman.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/special_items.c" afterPath="$PROJECT_DIR$/special_items.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/special_items.h" afterPath="$PROJECT_DIR$/special_items.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqlite3.c" afterPath="$PROJECT_DIR$/sqlite3.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqlite3.h" afterPath="$PROJECT_DIR$/sqlite3.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supplystation.c" afterPath="$PROJECT_DIR$/supplystation.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teamplay.c" afterPath="$PROJECT_DIR$/teamplay.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/totems.c" afterPath="$PROJECT_DIR$/totems.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trade.c" afterPath="$PROJECT_DIR$/trade.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upgrades.c" afterPath="$PROJECT_DIR$/upgrades.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_abilitylist.c" afterPath="$PROJECT_DIR$/v_abilitylist.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_autobind.c" afterPath="$PROJECT_DIR$/v_autobind.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_cmd.c" afterPath="$PROJECT_DIR$/v_cmd.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_cmd.h" afterPath="$PROJECT_DIR$/v_cmd.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_file_IO.c" afterPath="$PROJECT_DIR$/v_file_IO.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_hw.c" afterPath="$PROJECT_DIR$/v_hw.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_items.c" afterPath="$PROJECT_DIR$/v_items.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_items.h" afterPath="$PROJECT_DIR$/v_items.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_luasettings.c" afterPath="$PROJECT_DIR$/v_luasettings.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_luasettings.h" afterPath="$PROJECT_DIR$/v_luasettings.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_maplist.c" afterPath="$PROJECT_DIR$/v_maplist.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_maplist.h" afterPath="$PROJECT_DIR$/v_maplist.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_mysql_gds.c" afterPath="$PROJECT_DIR$/v_mysql_gds.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_shared.h" afterPath="$PROJECT_DIR$/v_shared.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_sqlite_character.c" afterPath="$PROJECT_DIR$/v_sqlite_character.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_sqlite_unidb.c" afterPath="$PROJECT_DIR$/v_sqlite_unidb.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_tbi.c" afterPath="$PROJECT_DIR$/v_tbi.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_utils.c" afterPath="$PROJECT_DIR$/v_utils.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_utils.h" afterPath="$PROJECT_DIR$/v_utils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lua/variables.lua" afterPath="$PROJECT_DIR$/lua/variables.lua" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lua/variables_pvm.lua" afterPath="$PROJECT_DIR$/lua/variables_pvm.lua" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lua/variables_pvp.lua" afterPath="$PROJECT_DIR$/lua/variables_pvp.lua" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vote.c" afterPath="$PROJECT_DIR$/vote.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/vrxcl-3.0.sql" afterPath="$PROJECT_DIR$/sql/vrxcl-3.0.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weapon_def.h" afterPath="$PROJECT_DIR$/weapon_def.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weapon_upgrades.c" afterPath="$PROJECT_DIR$/weapon_upgrades.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weapons.c" afterPath="$PROJECT_DIR$/weapons.c" />
+    </list>
+    <ignored path="vrxcl.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="vrxcl" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vrxcl" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vrxcl" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vrxcl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="VortexQuake2" TARGET_NAME="gamex86_64" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="gamex86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="VortexQuake2" TARGET_NAME="gamex86_64" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.gamex86_64" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1204227-43e3-4a08-a572-17fd4eaf973f" name="Default" comment="" />
+      <created>1434411514440</created>
+      <option name="number" value="Default" />
+      <updated>1434411514440</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33034572" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
